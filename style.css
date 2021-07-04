@@ -23,6 +23,15 @@ h1{
   padding-left: 10%;
 
 }
+.experiance-item{
+    width: 40%;
+    padding-left: 10%;
+    box-shadow: 10px 10px 50px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
 .half-width img{
     width: 80%;
 }
@@ -43,4 +52,29 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
    
+}
+.orange-color{
+    color: tomato;
+}
+.third-section{
+    font-size: 40px;
+}
+.experiance{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px;
+}
+#exs-flex{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#exxs-flex{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
